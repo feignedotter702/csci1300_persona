@@ -1,0 +1,38 @@
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+
+  
+  body{
+    background-color: rgb(255,229,204);
+  }
+  
+  /* Uncomment below if images are way too big.
+  Selects all image tags and makes them 500px;
+   */
+  img {
+   width: 450px;
+   margin-bottom: auto;
+   transition:transform 0.2s ease;
+  }
+
+  h1{
+    display: table;
+    margin: 0px auto 0px auto;
+    padding: 3px;
+    background-color: rgba(146,183,201,0.9);
+  }
+  h2{
+    display: table;
+    margin:5px,auto,5px,auto;
+    background-color: rgba(208,220,230,0.3);
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .gallery-container {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
